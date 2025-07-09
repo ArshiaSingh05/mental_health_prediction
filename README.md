@@ -47,8 +47,8 @@ mental-health-predictor/
 
 
 ## Backend Setup
-cd backend
-python -m venv venv
+-- cd backend
+-- python -m venv venv
 venv\Scripts\activate   # For Windows
 pip install -r requirements.txt
 uvicorn api:app --reload
