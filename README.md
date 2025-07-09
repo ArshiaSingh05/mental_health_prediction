@@ -27,17 +27,17 @@
 ## 📁 Project Structure
 
 mental-health-predictor/
-├── backend/
-│ ├── api.py ← FastAPI app & prediction route
-│ ├── model_utils.py ← Preprocessing logic & model loading
-│ ├── mental_health_model.pkl← Trained ML model
-├── cognifit-ai/
-│ └── cognifit/
-│ └── frontend/
-│ ├── dist/ ← Production build of the frontend
-│ ├── src/ ← React components & pages
-│ └── index.html ← Main HTML file
-└── README.md ← Project documentation
+├── backend/  
+│ ├── api.py ← FastAPI app & prediction route  
+│ ├── model_utils.py ← Preprocessing logic & model loading  
+│ ├── mental_health_model.pkl← Trained ML model  
+├── cognifit-ai/  
+│ └── cognifit/  
+│ └── frontend/  
+│ ├── dist/ ← Production build of the frontend  
+│ ├── src/ ← React components & pages  
+│ └── index.html ← Main HTML file  
+└── README.md ← Project documentation  
 
 
 ## 🧠 Machine Learning
@@ -46,18 +46,18 @@ mental-health-predictor/
 - **Target Output**: Binary (0 = Low Risk, 1 = High Risk)
 
 
-## Backend Setup
--- cd backend
--- python -m venv venv
-venv\Scripts\activate   # For Windows
-pip install -r requirements.txt
+## Backend Setup  
+cd backend  
+python -m venv venv  
+venv\Scripts\activate   # For Windows  
+pip install -r requirements.txt  
 uvicorn api:app --reload
 ## 🔁 Your browser will automatically launch at http://127.0.0.1:8000
 
 ## Frontend Setup (if modifying UI)
-cd cognifit-ai/cognifit/frontend
-npm install
-npm run dev       # For development
+cd cognifit-ai/cognifit/frontend  
+npm install  
+npm run dev       # For development  
 npm run build     # For production
 
 ## 👥 Team Members
