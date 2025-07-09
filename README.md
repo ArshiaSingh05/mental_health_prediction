@@ -2,8 +2,6 @@
 
 **Cognifit-AI** is an AI-based mental health prediction platform designed to assess an individual's mental wellness risk based on workplace-related and demographic factors. The system leverages a machine learning model trained on survey data to predict whether a person is at *high risk* or *low risk* of mental health issues.
 
-![Mental Health Predictor Banner](https://via.placeholder.com/1000x300.png?text=Mental+Health+Predictor)
-
 
 ## 🚀 Features
 
@@ -63,11 +61,13 @@ npm run dev       # For development
 npm run build     # For production
 
 ## 👥 Team Members
-Name	Contributions
-Arshia	Machine Learning model development, development and integration
-Vansh	Complete frontend design, backend assistance
-Surya	API design and integration, backend logic
-Paras	Model deployment handling, FastAPI routing, error handling
+
+| Name | Contributions |
+|----------|-------------|
+| Arshia | Machine Learning model development, development and integration |
+| Vansh | Complete frontend design, backend assistance |
+| Surya | API design and integration, backend logic |
+| Paras | Model deployment handling, FastAPI routing, error handling |
 
 ## 📌 Future Improvements
 📲 Mobile app integration
